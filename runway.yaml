@@ -1,0 +1,9 @@
+deployments:
+  - modules:
+      - path: sampleapp.cfn # cfn fullform is cloud formation engin
+        type: cloudformation
+        parameters:
+          namespace: 
+          cfngin_bucket:
+    regions:
+      - us-east-1
